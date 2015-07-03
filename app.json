@@ -1,8 +1,5 @@
 {
   "name": "Test App",
   "repository": "https://github.com/rfaulk/heroku-deploy-button-test",
-  "success_url": "/index.html",
-  "scripts": {
-    "postdeploy": "bundle && bundle exec middleman build"
-  }
+  "success_url": "/index.html"
 }
